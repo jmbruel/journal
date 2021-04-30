@@ -48,7 +48,7 @@ fwi ..> App << http >> : 3
 App --> db << jdbc >> : 4 
 App --> hpc << flow >> : 6
 App --> redis << flow >> : 5
-App --> nas << nfs >>  : 7
+App --> nas << nfs >>  : 8
 
 'admin flows'
 Admins ~> fwa << ssh >> : a 
